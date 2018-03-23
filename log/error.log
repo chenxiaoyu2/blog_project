@@ -1,0 +1,10 @@
+2018-03-20 13:34:00,931 [Thread-3:10436] [blog.views:115] [views:article] [ERROR]- 'bool' object is not callable
+2018-03-20 13:36:27,131 [Thread-3:1000] [blog.views:115] [views:article] [ERROR]- 'Comment' object is not iterable
+2018-03-20 13:40:54,852 [Thread-3:14592] [blog.views:116] [views:article] [ERROR]- 'Comment' object is not iterable
+2018-03-20 14:57:09,582 [Thread-3:7428] [blog.views:117] [views:article] [ERROR]- 'bool' object is not callable
+2018-03-20 16:16:40,425 [Thread-4:13740] [blog.views:137] [views:comment_post] [ERROR]- 'bool' object is not callable
+2018-03-20 16:17:23,870 [Thread-25:16244] [blog.views:137] [views:comment_post] [ERROR]- 'bool' object is not callable
+2018-03-20 16:18:26,481 [Thread-4:7400] [blog.views:137] [views:comment_post] [ERROR]- 'bool' object is not callable
+2018-03-20 16:22:31,826 [Thread-4:12116] [blog.views:137] [views:comment_post] [ERROR]- 'bool' object is not callable
+2018-03-20 16:25:06,001 [Thread-4:7796] [blog.views:137] [views:comment_post] [ERROR]- 'bool' object is not callable
+2018-03-20 16:25:10,690 [Thread-6:2700] [blog.views:137] [views:comment_post] [ERROR]- 'bool' object is not callable

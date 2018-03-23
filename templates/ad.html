@@ -1,0 +1,44 @@
+{% load staticfiles %}
+<div class="banner">
+      <div id="slide-holder">
+        <div id="slide-runner">
+            <a href="http://sports.sina.com.cn/g/laliga/2018-03-14/doc-ifyscsmv3954018.shtml" target="_blank"><img id="slide-img-1" src="{% static 'images/a5.jpg' %}"  alt="" /></a>
+            <a href="http://sports.sina.com.cn/g/laliga/2018-03-14/doc-ifyscsmv4247203.shtml" target="_blank"><img id="slide-img-2" src="{% static 'images/a6.jpg' %}"  alt="" /></a>
+            <a href="http://sports.sina.com.cn/g/laliga/2018-03-13/doc-ifysfkcn2440177.shtml" target="_blank"><img id="slide-img-3" src="{% static 'images/a7.jpg' %}"  alt="" /></a>
+            <a href="http://127.0.0.1:8000/article/?id=3" target="_blank"><img id="slide-img-4" src="{% static 'images/a8.jpg' %}"  alt="" /></a>
+          <div id="slide-controls">
+            <p id="slide-client" class="text"><strong></strong><span></span></p>
+            <p id="slide-desc" class="text"></p>
+            <p id="slide-nav"></p>
+          </div>
+        </div>
+      </div>
+      <script>
+    if(!window.slider) {
+    var slider={};
+  }
+  slider.data= [
+    {
+        "id":"slide-img-1", // 与slide-runner中的img标签id对应
+        "client":"惊曝皇马挖内马尔获巨额赞助",
+        "desc":"" //这里修改描述
+    },
+    {
+        "id":"slide-img-2",
+        "client":"齐达内靠什么镇住了皇马更衣室",
+        "desc":""
+    },
+    {
+        "id":"slide-img-3",
+        "client":"曝皇马遴选四大神锋替本泽马",
+        "desc":""
+    },
+    {
+        "id":"slide-img-4",
+        "client":"C罗为什么进入了开挂阶段",
+        "desc":""
+    }
+  ];
+    </script>
+    </div>
+    <!-- banner代码 结束 -->
